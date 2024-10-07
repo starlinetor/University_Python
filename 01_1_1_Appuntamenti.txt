@@ -1,0 +1,29 @@
+start 1 10
+start 2 13
+end 1 15
+end 2 14
+
+s = 13
+e = 14
+
+Se start1 > start2
+    s = start1
+Altrimenti
+    s = start2
+Se end1 < end2 
+    e = end1
+Altrimenti
+    e = end2
+Se s < e
+    Gli appuntamenti si sovrappongono
+Altrimenti
+    Gli appuntamenti non si sovrappongono 
+
+Se l'appuntamento che inizia dopo inizia prima che l'appuntamento che finisce prima allora si sovrappongono 
+I1 ------------- F1
+         I2 -----------F2 
+         XXXXXXXXXX
+
+Funzionamento corretto 
+S è l'ora dell'appuntamento inizia dopo 
+E è la fine dell'appuntamento che finisce prima

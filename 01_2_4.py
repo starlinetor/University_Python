@@ -1,0 +1,6 @@
+print("d8888b. db    db d888888b db   db  .d88b.  d8b   db")
+print("88  `8D `8b  d8' `~~88~~' 88   88 .8P  Y8. 888o  88")
+print("88oodD'  `8bd8'     88    88ooo88 88    88 88V8o 88")
+print("88~~~      88       88    88~~~88 88    88 88 V8o88")
+print("88         88       88    88   88 `8b  d8' 88  V888")
+print("88         YP       YP    YP   YP  `Y88P'  VP   V8P")

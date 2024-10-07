@@ -1,0 +1,17 @@
+Descrivere come tassellare a scacchiera il pavimento di una stanza a base
+rettangolare, i cui lati misurano entrambi multipli di 10 cm, con piastrelle bianche e nere quadrate di
+misura 10 x 10 cm. 
+
+la domanda ha poco senso, mancano tutti i possibili riferimenti al pavimento e alla caselle
+è necessario sapere come questi sistemi funzionano prima di poter implementare il codice richiesto
+comunque uno pseudo codice potrebbe essere
+
+lenght //lunghezza
+height //altezza 
+black //boolean 
+for x in lenght
+    for y in height
+        black = !black
+        addCell(color : black, xcord : x, ycord : y)
+
+
