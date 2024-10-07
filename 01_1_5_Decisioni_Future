@@ -1,8 +1,0 @@
-Una persona alla fine delle scuole superiori vuole decidere a quale facoltà
-universitaria iscriversi, in base ai consigli che riceve e allo stipendio percepito il primo anno di lavoro
-dopo la laurea. Per la maggior parte delle facoltà sono disponibili stime occupazionali dei
-neolaureati. Come può decidere?
-
-for each university in universities 
-    university.value = price * price multiplier + approval * approval weight
-return highest value in universities

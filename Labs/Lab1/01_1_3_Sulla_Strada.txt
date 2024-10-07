@@ -1,0 +1,13 @@
+Calcolare la percentuale di utilizzo della vostra automobile per uso personale e,
+separatamente, per recarvi al lavoro. Conoscete la distanza tra casa vostra e il vostro luogo di lavoro
+e, dato un periodo di tempo, avete registrato il valore riportato dal contachilometri all’inizio ed alla
+fine del periodo; inoltre è noto il numero di giorni in cui vi siete recati al lavoro in tale periodo.
+
+periodo       //tempo della misurazione 
+distanzaCL    //distanza casa lavoro
+variazioneKM  //distanza percorsa nel periodo
+giorniL       //giorni di lavoro nel periodo 
+
+kmLavoro = giorniL * distanzaCL * 2
+percentkmL = kmLavoro / variazioneKM
+percentkmP = (variazioneKM - kmLavoro) / variazioneKM 

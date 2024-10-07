@@ -1,3 +1,0 @@
-print("+-------+")
-print("|Edoardo|")
-print("+-------+")

@@ -1,0 +1,26 @@
+La primavera boreale corrisponde all'autunno australe: dal 20 -3- al 20 o 21 -6- (93 giorni circa);
+L'estate boreale corrisponde all'inverno australe: dal 20 o 21 -6- al 22 o 23 -9- (94 giorni circa);
+L'autunno boreale corrisponde alla primavera australe: dal 22 o 23 -9- al 21 o 22 -12- (90 giorni circa);
+L'inverno boreale corrisponde all'estate australe: dal 21 o 22 -12- al 20 -3- (89 giorni circa).
+
+
+Se mese è 1, 2 o 3
+    stagione = “Winter”
+Altrimenti se mese è 4, 5 o 6
+    stagione = “Spring”
+Altrimenti se mese è 7, 8 o 9
+    stagione = “Summer”
+Altrimenti se mese è 10, 11 o 12
+    stagione = “Fall”
+Se mese è divisibile per 3 e giorno >= 21
+    Se stagione è “Winter”
+        stagione = “Spring”
+    Altrimenti se stagione è “Spring”
+        stagione = “Summer”
+    Altrimenti se stagione è “Summer”
+        stagione = “Fall”
+    Altrimenti
+        stagione = “Winter” 
+
+Il codice funziona correttamente, assume semplicemente che il cambio di stagione avvenga sempre il 21, chiaramente
+implementare un cambio di stagione variabile sarebbe più difficile da fare
