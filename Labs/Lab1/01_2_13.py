@@ -1,12 +1,7 @@
-a=1
-b=1
-temp = 0
-
-print(a)
+n1=0
+n2=1
 
 for i in range (10): 
-    print(a)
-    temp = a
-    a = a+b 
-    b = temp
- 
+    print(n1)
+    n2 = n2+n1 
+    n1 = n2-n1S
