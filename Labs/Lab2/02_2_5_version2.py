@@ -1,5 +1,5 @@
 def controlla_matricola(matricola: str) -> None:
-    if not(matricola[0:1] is str and matricola[1:].isnumeric()):
+    if not(not matricola[0:1].isnumeric() and matricola[1:].isnumeric()):
         raise ValueError('Il valore "{}" è sbagliato, necessario come primo carattere una lettera seguito da un numero\nexp : s343243'.format(matricola))
 
 #imput
