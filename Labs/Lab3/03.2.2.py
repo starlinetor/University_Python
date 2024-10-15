@@ -13,7 +13,7 @@ grades: dict[str : float] = {
     "D+" : 1.3,
     "D"  : 1.0,
     "D-" : 0.7,
-    "F"  : 0.4,
+    "F"  : 0.0,
 }
 
 if(grade in grades.keys()):
