@@ -11,7 +11,7 @@ def DNA_letters(DNA: str) -> bool:
     nucleotide_check: bool = True
     nucleotides: list[str] = ["A", "C", "T", "G"]
     for char in DNA:
-        if (not (char == nucleotide for nucleotide in nucleotides)):
+        if (char not in nucleotides):
             nucleotide_check = False
     return nucleotide_check
 
