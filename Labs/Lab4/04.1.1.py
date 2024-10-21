@@ -1,7 +1,13 @@
 numbers : list[int] = []
 
 while True:
-    numbers.append(int(input("Enter a new number: ")))
+
+    value:str = input("Enter a new number: ")
+
+    if(value == ""):
+        exit()
+
+    numbers.append(int(value))
 
     odd: int = 0
     even: int = 0
