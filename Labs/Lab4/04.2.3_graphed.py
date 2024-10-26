@@ -1,13 +1,27 @@
 from cProfile import label
 import math
+import matplotlib.pyplot as plt
+
+'''
+Note
+The code won't execute unless matplotlib is installed
+To install the package use "pip install matplotlib" on a python instance
+'''
+
 
 ball_y: float =  0
-ball_starting_speed: float = 5
+ball_starting_speed: float = 100 
 ball_speed : float = ball_starting_speed
 g: float = 9.8
-delta_t: float = 0.01
+delta_t: float = 0.1
 exact_ball_y: float = 0
-print_info: bool = True
+print_info: bool = False
+
+time: list[float] = []
+y_exact: list[float] = []   
+y_simulated: list[float] = []
+x: list[int] = []
+
 
 def simulate_ball(ball_y: float, ball_speed: float, g: float, delta_t: float) -> tuple[float, float]:
     '''
@@ -37,6 +51,11 @@ while ball_y >= 0 or exact_ball_y >= 0:
     ball_y , ball_speed = simulate_ball(ball_y, ball_speed, g, delta_t)
     exact_ball_y = exact_ball(ball_starting_speed, g, delta_t*step)
 
+    time.append(step * delta_t)
+    y_simulated.append(ball_y)
+    y_exact.append(exact_ball_y)
+    x.append(0)
+
     if(print_info):
         print(f"Simulation step {step} : ")
         print(f"Simulated y position : {ball_y}")
@@ -44,4 +63,12 @@ while ball_y >= 0 or exact_ball_y >= 0:
 
     step += 1
 
-    input("Press enter to continue the simulation \n")
+plt.plot(time, y_simulated, label = "Simulated")
+plt.plot(time, y_exact, label = "Exact")
+plt.plot(time, x)
+
+plt.xlabel("Time")
+plt.ylabel("Position")
+
+plt.legend()
+plt.show()
