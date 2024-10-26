@@ -2,6 +2,13 @@ from cProfile import label
 import math
 import matplotlib.pyplot as plt
 
+'''
+Note
+The code won't execute unless matplotlib is installed
+To install the package use "pip install matplotlib" on a python instance
+'''
+
+
 ball_y: float =  0
 ball_starting_speed: float = 100 
 ball_speed : float = ball_starting_speed
