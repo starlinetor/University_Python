@@ -2,7 +2,7 @@ import random
 
 piles : list[int] = []
 
-n_piles = random.randint(1,4)
+n_piles = random.randint(1,45)
 cards_left=45
 
 for i in range(n_piles):
