@@ -1,7 +1,7 @@
 import random
 
 
-def print_table(table : list[list[int]]) -> None:
+def print_table(table : list[list[float]]) -> None:
     print("[ x ],",end="")
     for i in range(len(table[0])):
         print(f"[ {i} ],",end="")
