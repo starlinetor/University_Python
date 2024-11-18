@@ -1,7 +1,7 @@
 def merge(list_a : list, list_b : list) -> list:
     if len(list_a) < len(list_b) : 
         short_lenght : int = len(list_a)
-        long_list : bool = list_b
+        long_list : list = list_b
     else : 
         short_lenght : int = len(list_b)
         long_list : list = list_a
