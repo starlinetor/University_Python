@@ -52,4 +52,4 @@ y = random.randint(0,n-1)
 
 print(f"coordinates : ({x},{y})")
 
-neighbor_average(table,y,x)
+neighbor_average(table,x,y)
