@@ -5,25 +5,25 @@ def smooth_graph(numbers : list[int], iteration : int) -> list[int]:
     """
     Smoothes a list of numbers and graphes it 
     """
-    avrage : int = 0
+    average : int = 0
 
     for i in range(len(numbers)): 
         #edge cases on the borders
         if i == 0: 
-            avrage = (numbers[0] + numbers[1]) / 2
+            average = (numbers[0] + numbers[1]) / 2
             continue
         if i == len(numbers) -1:
-            avrage = (numbers[len(numbers)-1] + numbers[len(numbers)-2]) / 2
-            numbers[i] = avrage
+            average = (numbers[len(numbers)-1] + numbers[len(numbers)-2]) / 2
+            numbers[i] = average
             continue
         #default cases
-        avrage_temp = (numbers[i-1] +  numbers[i] + numbers[i+1] ) / 3
-        numbers[i-1] = avrage
-        avrage = avrage_temp
+        average_temp = (numbers[i-1] +  numbers[i] + numbers[i+1] ) / 3
+        numbers[i-1] = average
+        average = average_temp
     plt.plot(range(len(numbers)), numbers, label = f"Smothed n : {iteration}")
     return numbers
 
-#creates the list to be avraged
+#creates the list to be averaged
 default_list : list[int] = []
 
 for i in range(100):
