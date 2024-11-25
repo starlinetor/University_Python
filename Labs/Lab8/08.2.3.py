@@ -1,6 +1,3 @@
-from turtle import circle
-from xmlrpc.client import Boolean
-
 
 def print_table(table : list[list[str]]) -> None:
     print("[x]",end="")

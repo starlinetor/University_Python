@@ -1,5 +1,3 @@
-from random import betavariate
-
 
 def print_table(table : list[list[int]]) -> None:
     print("[x ]",end="")
