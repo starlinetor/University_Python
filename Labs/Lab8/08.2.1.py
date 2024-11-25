@@ -33,9 +33,11 @@ def neighbor_average(values : list[list[float]], x:int, y:int):
     n : int = 0
     for i in range(min_x,max_x+1,1):
         for j in range(min_y,max_y+1,1):
-            print(f"({i},{j}) : {values[j][i]}")
-            total += values[j][i] 
-            n += 1
+            #do not add the center
+            if(i != x or j != y):
+                print(f"({i},{j}) : {values[j][i]}")
+                total += values[j][i] 
+                n += 1
     avrage : float = total / n
     print (f"avrage : {avrage}")
 
