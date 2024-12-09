@@ -11,6 +11,8 @@ while True:
     
     lines.append(line.removesuffix("\n").split(" "))
 
+infile.close()
+
 parameter = input()
 
 for line in lines:
