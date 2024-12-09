@@ -1,0 +1,10 @@
+Armando Scozzese;Installation;82.86;10/2/2024
+Armando Bizzarro;Consultation;88.55;23/2/2024
+Nino Zucchero;Repair;35.67;24/2/2024
+Gino Barbuto;Installation;24.67;27/3/2024
+Tino Sghembo;Delivery;75.17;23/9/2024
+Gino Zucchero;Consultation;65.36;25/1/2024
+Bob Lombrico;Delivery;37.22;26/5/2024
+Giacinto Zucchero;Installation;36.86;27/11/2024
+Bob Sghembo;Installation;95.13;21/2/2024
+Franco Ventoso;Customization;28.97;16/7/2024
