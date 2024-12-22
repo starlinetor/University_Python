@@ -1,0 +1,2 @@
+'sesso', 'droga' 
+'C++'
