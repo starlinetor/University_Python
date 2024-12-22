@@ -1,13 +1,13 @@
 from io import TextIOWrapper
 
-from numpy import sort
-
 #alphabeth
 alphabeth : tuple[str] = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z")
 #read file
 infile : TextIOWrapper = open("11.1.1_input.txt", "r", encoding="utf-8")
 #file to list of strings
 infile_list = infile.readlines()
+
+infile.close()
 # create a vocabulary for each word
 words : dict[str:int] = {}
 #empty word
