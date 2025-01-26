@@ -20,7 +20,7 @@ def read_criteria() -> list[list[str]]:
     #open criteria file
     criteria_file : TextIOWrapper = open("criteria.txt", "r", encoding="utf-8")
 
-    criteria_data : list[list[str,int]] = []
+    criteria_data : list[list[str]] = []
 
     #add first line
 
